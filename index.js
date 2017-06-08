@@ -304,6 +304,10 @@ module.exports = function(options) {
     friends: {
       get: create_getter('friends')
     },
+    /** @class heartrates */
+    heartrates: {
+      get: create_getter('heartrates')
+    },
     /** @class mood */
     mood: {
       get: create_getter_xid('mood'),
